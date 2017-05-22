@@ -1,0 +1,597 @@
+@import "colors.scss";
+@import "fonts.scss";
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width:1200px) {
+	header {
+		.m-menu {
+		    margin-left: -34px;
+		    width: 118%;
+		}
+		.list-inline {
+			margin-left: 32px;
+			li {
+			    margin-right: -15px;
+			    margin-top: 25px;
+			}
+		}
+		.header_social {
+			 ul li {
+			    margin-right: 15px;
+			    margin-top: 15px;
+			}
+		}
+	}
+	.art {
+		height: 1120px;
+		#bread {
+		    left: 44%;
+		    position: absolute;
+		    top: -56px;
+		}
+		#benito {
+			img {
+			    bottom: -150px;
+			    left: 457px;
+			    position: absolute;
+			}
+		}
+		#art-p {
+		    font-size: 17px;
+		    margin-top: -30px;
+		}
+		#text-lef {
+		    left: 280px;
+		}
+		#text-right {
+		    right: 203px;
+		}
+		.galery {
+		    margin-top: 310px;
+		}
+		#unique {
+		    left: 410px;
+		}
+		#commas1 {
+		    left: 295px;
+		}
+		#commas2 {
+		    left: 710px;
+		}
+		.wrap_img_top, .wrap_img_bottom {
+		    margin: 0 auto;
+		    min-height: 225px; 
+		    width: 60%;
+		}
+		.tastes {
+		    position: absolute;
+		    right: 322px;
+		    top: 82px;
+		}
+	}
+	.menu {
+		.ready {
+			display: none;
+		}
+		.content-wrap {
+		    margin-top: -95px;
+		    width: 101%;
+		    margin-left: -22px;
+		}
+		.content {
+		    width: 562px;
+		}
+	}
+	.breakfast {
+		.flair {
+		    margin-left: 145px;
+		    margin-top: 90px;
+		    position: absolute;
+		    width: 470px;
+		}
+		.br-content {
+		    padding-left: 0;
+		    width: 33%;
+		}
+	}
+	.sandwich {
+		height: 1175px;
+		.section-column {
+			width: 100%;
+			margin-top: 140px;
+			padding: 0;
+			.item {
+				float: left;
+				margin-left: 66px;
+				margin-right: 25px;
+			}
+		}
+		.sandwich-title {
+  		    background: url("../img/windmill.png") no-repeat scroll 130px 0;
+		}
+		.recipe-wrap {
+		    position: absolute;
+		    right: 57px;
+		    top: -600px;
+		    width: 87%;
+		}
+		.sandwich .prep, .sandwich .cook, .sandwich .ready {
+		    width: 200px;
+		}
+	}
+	footer {
+		.menu-left a {
+		    padding-right: 35px;
+		}
+		.menu-right {
+			li {
+				.link3, .link4 {
+					background: none;
+				}
+			}
+			a {
+			    margin-right: 45px;
+			    padding-left: 15px;
+			}
+		}
+	}
+}
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width: 992px) {
+	header {
+		.m-menu {
+			position: absolute;
+			top: -59px;
+			left: 180px;
+		}
+		h1 {
+			font-size: 75px;
+		}
+	}
+	.art {
+		height: 1150px;
+		#bread {
+		    left: 41%;
+		    top: -146px;
+		}
+		#art-p {
+		    font-size: 19px;
+		    margin-bottom: 25px;
+		    margin-top: -30px;
+		}
+		#benito img {
+		    bottom: -150px;
+		    left: 352px;
+		    position: absolute;
+		}
+		#text-lef {
+		    left: 177px;
+		}
+		 #text-right {
+		    right: 100px;
+		}
+		#unique {
+		    left: 302px;
+		}
+		#commas1 {
+		    left: 180px;
+		}
+		#commas2 {
+		    left: 615px;
+		}
+		.wrap_img_top, .wrap_img_bottom {
+		    margin: 0 auto;
+		    min-height: 225px;
+		    width: 77%;
+		}
+		.tastes {
+		    position: absolute;
+		    right: 218px;
+		    top: 82px;
+		}
+		.wrap_left, .wrap_right {
+		    width: 230px;
+		}
+		.wrap_right {
+		    margin: 0 auto;
+		}
+	}
+	.menu {
+		.pancake_picture {
+			display: none;
+		}
+		.content-wrap {
+		    margin-left: -22px;
+		    margin-top: 110px;
+		    width: 88%;
+		}
+	}
+	.breakfast {
+		height: 830px;
+		.br-content {
+		    width: 39%;
+		}
+		.flair {
+		    left: 145px;
+		    margin-right: 0;
+		    margin-top: 0;
+		    position: absolute;
+		    top: -647px;
+		    width: 470px;
+		}
+	}
+	.sandwich {
+		.sandwich-title {
+		    background: url("../img/windmill.png") no-repeat scroll 87px 0;
+		}
+		.section-column .item {
+		    margin-left: 24px;
+		    margin-right: 2px;
+		}
+		.prep, .cook, .ready {
+		    background-color: #fff;
+		    height: 190px;
+		    opacity: 0.8;
+		    position: absolute;
+		    width: 200px;
+		}
+	}
+	footer {
+		.menu-left a {
+		    padding-right: 11px;
+		}
+		.menu-right {
+			width: 37%;
+			a {
+			    margin-right: 19px;
+			    padding-left: 0;
+			}
+		}
+	}
+}
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+	header {
+		.line.glyphicon.glyphicon-align-justify {
+		    color: #56534c;
+		    font-size: 30px;
+		    font-weight: normal;
+		    position: absolute;
+		    right: 48px;
+		    top: -41px;
+		}
+		.dropdown-menu {
+		    background: #b8b7b5 none repeat scroll 0 0;
+		    font-size: 17px;
+		    position: absolute;
+		    right: 0;
+		    top: -10px;
+		    padding: 0;
+		    margin: 0;
+		}
+		#drop {
+			li {
+			    border-top: 1px solid grey;
+			    padding-bottom: 0;
+			    padding-top: -5px;
+			}
+			li:first-child {
+				border-top: none;
+			}
+			a:hover {
+				background: #dbd9d6;
+			}
+		}
+		h1 {
+			font-size: 60px;
+		}		
+	}
+	.art {
+		height: 1665px;
+		.wrap_left {
+		    margin: 0 auto;
+		    float: none;
+		}
+		.wrap_left, .wrap_right {
+		    width: 230px;
+		}
+		.wrap_right {
+		    margin: 0 auto;
+		    float: none;
+		}
+		#benito {
+			img {
+				position: absolute;
+				bottom: -150px;
+				left: 41%;
+			}
+		}
+		#text-lef {
+		    left: 15%;
+		}
+		#text-right {
+		    right: 8%;
+		}
+		#chef {
+		    font-size: 26px;
+		    margin-left: -7px;
+		}
+		#commas1 {
+		    left: 21%;
+		}
+		 #commas2 {
+		    left: 79%;
+		}
+		#unique {
+		    left: 34%;
+		}
+		.tastes {
+			display: none;
+		}
+	}
+	.menu {
+		.content-wrap {
+		    left: -10%;
+		    margin-left: 94px;
+		    position: absolute;
+		    right: 15%;
+		    top: 10px;
+		    width: 78%;
+		}
+		.pancake_picture {
+		    background: transparent;
+		    width: em(420px);
+		    height: 515px;
+		    position: absolute;
+		    img {
+		    	display: block;
+		    }
+		}
+		.content {
+		    margin-right: -57px;
+		    width: 474px;
+		}
+		.carousel-inner img {
+		    float: left;
+		    margin: 11px -73px 15px 91px;
+		}
+	}
+	.breakfast {
+		#breakfas_content {
+			display: none;
+		}
+		 .flair {
+		    display: block;
+		    left: -2px;
+		    margin: 107px auto 0;
+		    position: relative;
+		    top: 0;
+		    width: 470px;
+		}
+	}
+	.sandwich {
+		height: 1045px;
+		.sandwich-title {
+		    background: none;
+		    h2 {
+		    	font-size: 37px;
+		    	margin-top: -55px;
+		    }	
+		}
+		.recipe-wrap {
+			display: none;
+		}
+		.item {
+		    display: block;
+		    margin: 0 auto;
+		    margin-left: 24px;
+		    margin-right: 2px;
+		    padding-top: 45px;
+		    width: 100%;
+		}
+		.section-column {
+		    margin-top: 100px;
+		    padding: 0;
+		    width: 100%;
+		    .item {
+		        margin-left: 0;
+		        margin-right: 0;
+		    }
+		     p {
+		        font-size: 17px;
+		    }
+		}
+	}
+	footer {
+		.footer-logo {
+			display: none;
+		}
+		.menu-right, .menu-left {
+			border: none;
+			width: 45%;
+		}
+		.menu-right {
+			margin-top: 0;
+			text-align: right;
+			ul {
+				padding-left: 0;
+				li {
+					padding-left: 15px;
+				}
+			}
+			a {
+			    margin-right: 2px;
+			    padding-left: 0;
+			}
+		}
+		.menu-left {
+			text-align: left;
+			ul {
+				padding-left: 5px;
+				 li {
+				    padding-right: 0;
+				}
+			}
+		}
+	}
+}
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+	header {
+		h1 {
+			font-size: 62px;
+		}
+	}
+	.art {
+		height: 1694px;
+		#bread {
+		    left: 35%;
+		    top: -146px;
+		}
+		#text-lef {
+		    display: none;
+		}
+		#text-right {
+		    display: none;
+		}
+		#benito img {
+		    bottom: -150px;
+		    left: 35%;
+		    position: absolute;
+		}   
+		 #unique {
+		    left: 23%;
+		}
+		#commas1 {
+		    left: 14%;
+		}
+		 #commas2 {
+		    left: 76%;
+		}
+	}
+	.menu {
+		max-height: 555px;
+		.content-wrap {
+			display: none;
+		}
+		.hidden {
+			display: block !important;
+			visibility: visible !important;
+			min-height: 300px;
+		    	font-family: "ProximaNovaRegular";
+		    	background-color: transparent;
+		    	h4 {
+			        font-size: 50px;
+			        color: $main-color;
+			        margin-top: 65px;
+			        margin-left: 60px;
+		    	}
+		    	h6 {
+			        font-size: 20px;
+			        margin-top: 20px;
+			        color: $accent-color;
+			        margin-left: 60px;
+			        text-transform: uppercase;
+		   	}
+		    	p {
+			        font-size: 19px;
+			        color: $main-color;
+			        margin: 50px 60px 100px 60px;
+			        text-align: justify;
+		   	 }
+		}   	 
+	}
+	.breakfast {
+		height: 680px;
+		.flair {
+			display: none;
+		}
+		#breakfas_content {
+		    display: inline;
+		}
+		h3 {
+		    font-size: 50px;
+		    margin-top: 95px;
+		}
+	}
+	.sandwich {
+		height: 1025px;
+		 .section-column {
+		    margin-top: 115px;
+		}
+		.sandwich-title {
+			width: 100%;
+			h5 {
+				font-size: 16px;
+			}
+		}
+	}	
+	footer {
+		.menu-right, .menu-left {
+			display: none;
+		}
+		.footer-logo {
+			display: block;
+			width: 27%;
+			margin-top: 25px;
+		}
+	}
+}
+
+/*Custom, iPhone Retina*/
+@media only screen and (max-width: 320px) {
+	header {
+		min-height: 785px;
+		h1 {
+			font-size: 50px;
+			margin-top: 80px;
+		}
+		h5 {
+			font-size: 26px;
+		}
+		.wrap_left {
+			margin-left: -16px;
+			img {
+			    margin-left: -16px !important;
+			}    
+		}
+		.wrap_right > img {
+		    margin-left: -20px;
+		}
+	}
+	.art {
+		height: 1740px;
+	}
+	.menu {
+		max-height: 655px;
+		.hidden {
+		    	h4 {
+			        font-size: 43px;
+			        color: $main-color;
+			        margin-top: 65px;
+			        margin-left: 30px;
+		    	}
+		    	h6 {
+			        font-size: 20px;
+			        margin-top: 20px;
+			        color: $accent-color;
+			        margin-left: 30px;
+			        text-transform: uppercase;
+		   	}
+		    	p {
+			        font-size: 18px;
+			        color: $main-color;
+			        margin: 80px 60px 100px 30px;
+			        text-align: justify;
+		   	 }
+		}
+	}	
+}
+	
+
+
+
+
+

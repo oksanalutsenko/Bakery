@@ -1,0 +1,934 @@
+@font-face {
+  font-family: "AlegreyaSansSC-Bold";
+  src: url("../fonts/AlegreyaSansSC-Bold.ttf"); }
+
+@font-face {
+  font-family: "AlegreyaSansSC-Regular";
+  src: url("../fonts/AlegreyaSansSC-Regular.ttf"); }
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular.ttf"); }
+
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: url("../fonts/PlayfairDisplayBold.ttf"); }
+
+@font-face {
+  font-family: "scriptina";
+  src: url("../fonts/scriptina.ttf"); }
+
+@font-face {
+  font-family: "AlegreyaSansSC-Bold";
+  src: url("../fonts/AlegreyaSansSC-Bold.ttf"); }
+
+@font-face {
+  font-family: "AlegreyaSansSC-Regular";
+  src: url("../fonts/AlegreyaSansSC-Regular.ttf"); }
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular.ttf"); }
+
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: url("../fonts/PlayfairDisplayBold.ttf"); }
+
+@font-face {
+  font-family: "scriptina";
+  src: url("../fonts/scriptina.ttf"); }
+
+body {
+  font-size: 16px;
+  min-width: 280px;
+  position: relative;
+  line-height: 1.6;
+  font-family: "AlegreyaSansSC-Regular", sans-serif;
+  overflow-x: hidden; }
+
+.container, .row {
+  padding: 0;
+  margin: 0 auto; }
+
+header {
+  min-height: 940px;
+  background: url("../img/main_bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 7px; }
+  header .main_logo {
+    margin-top: -15px; }
+    header .main_logo a {
+      font-size: 46px;
+      font-family: "scriptina";
+      color: #fff; }
+  header a:hover {
+    color: #9f5e24;
+    text-decoration: none; }
+  header .list-inline {
+    opacity: 1.00;
+    margin-left: 20px; }
+    header .list-inline li {
+      margin-top: 25px; }
+    header .list-inline a {
+      color: #fff;
+      font-family: "AlegreyaSansSC-Regular";
+      font-size: 15px;
+      text-transform: uppercase;
+      padding: 0 60px 0 9px; }
+    header .list-inline a:hover {
+      color: #9f5e24;
+      text-decoration: none; }
+    header .list-inline .link_1 {
+      background: url(../img/arrow.png) no-repeat 112px 8px; }
+    header .list-inline .link_2 {
+      background: url(../img/arrow.png) no-repeat 85px 8px; }
+    header .list-inline .link_3 {
+      background: url(../img/arrow.png) no-repeat 139px 8px; }
+    header .list-inline .link_4 {
+      background: url(../img/arrow.png) no-repeat 91px 8px; }
+  header .header_social ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 29px;
+    margin-top: 15px; }
+  header .header_social a:hover {
+    background-color: #9f5e24;
+    text-decoration: none; }
+  header h1 {
+    font-family: "PlayfairDisplayBold";
+    font-size: 92px;
+    margin-top: 210px;
+    color: #fff; }
+  header .h_bg > img {
+    display: block;
+    margin: 87px auto -43px; }
+  header h5 {
+    font-size: 24px;
+    font-family: "ProximaNovaRegular";
+    color: #fff;
+    margin-top: 120px; }
+  header .btn {
+    display: block;
+    margin: 70px auto; }
+    header .btn button {
+      display: block;
+      margin: 0 auto;
+      background: #56534c;
+      opacity: .53;
+      width: 200px;
+      height: 60px;
+      color: #fff;
+      font-size: 19px; }
+
+.art {
+  height: 655px;
+  background: url(../img/art_bg.jpg); }
+  .art #bread {
+    left: 88%;
+    position: absolute;
+    top: -56px; }
+  .art .fix {
+    background-color: #f3f1e9; }
+  .art h3 {
+    font-family: "ProximaNovaRegular";
+    font-size: 48px;
+    color: #56534c;
+    margin-top: 90px; }
+  .art h6 {
+    font-family: "ProximaNovaRegular";
+    font-size: 18px;
+    color: #a47d5e;
+    margin-top: 20px;
+    margin-bottom: 70px; }
+  .art p {
+    color: #56534c;
+    font-size: 14px;
+    font-family: "ProximaNovaRegular"; }
+  .art #art-p {
+    margin-top: -30px; }
+  .art #chef {
+    font-family: "ProximaNovaRegular";
+    color: #56534c;
+    font-size: 24px; }
+  .art #benito img {
+    bottom: -150px;
+    left: 227px;
+    position: absolute; }
+  .art #text-lef {
+    left: 100px; }
+  .art #text-right {
+    right: 90px; }
+  .art #text-right, .art #text-lef {
+    position: absolute;
+    bottom: -117px;
+    font-family: "ProximaNovaRegular";
+    color: #56534c;
+    font-size: 24px;
+    border-bottom: 1px solid #d7d5ca;
+    border-top: 1px solid #d7d5ca;
+    padding: 10px 20px; }
+  .art #unique {
+    font-family: "scriptina";
+    color: #a47d5e;
+    font-size: 24px;
+    position: absolute;
+    bottom: -265px;
+    left: 175px; }
+  .art #commas1 {
+    position: absolute;
+    bottom: -185px;
+    left: 85px; }
+  .art #commas2 {
+    position: absolute;
+    bottom: -270px;
+    left: 449px; }
+  .art .wrap_left {
+    float: left;
+    margin-left: 70px; }
+  .art .wrap_right {
+    float: right;
+    margin-right: 30px; }
+  .art .galery {
+    min-height: 700px;
+    margin-top: 125px; }
+  .art .wrap_img_top, .art .wrap_img_bottom {
+    min-height: 225px; }
+  .art .wrap_left, .art .wrap_right {
+    min-height: 210px;
+    width: 200px; }
+  .art .tastes {
+    position: absolute;
+    top: 82px;
+    right: 130px; }
+
+.menu {
+  height: 760px;
+  background: url(../img/second-bg.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative; }
+  .menu .content-wrap {
+    width: 570px;
+    height: 515px;
+    position: absolute;
+    background-color: transparent;
+    padding: 0;
+    margin: 0 auto;
+    width: 111%; }
+  .menu .col-md-9 {
+    min-height: 520px; }
+  .menu .pancake_picture {
+    background: transparent;
+    width: em(420px);
+    height: 515px;
+    float: left;
+    position: relative; }
+  .menu .img_mnu {
+    position: absolute;
+    top: 230px;
+    right: 0;
+    z-index: 10; }
+  .menu .content {
+    font-family: "ProximaNovaRegular";
+    background-color: #fff;
+    float: right;
+    width: 557px; }
+    .menu .content h4 {
+      font-size: 48px;
+      color: #56534c;
+      margin-top: 65px;
+      margin-left: 60px; }
+    .menu .content h6 {
+      font-size: 14px;
+      color: #a47d5e;
+      margin-left: 60px;
+      text-transform: uppercase; }
+    .menu .content p {
+      font-size: 14px;
+      color: #56534c;
+      margin: 80px 60px 100px 60px;
+      text-align: justify; }
+  .menu .div-bgi {
+    background: url("../img/windmill_bg.png") no-repeat 265px 145px; }
+  .menu .carousel-inner {
+    height: 122px; }
+    .menu .carousel-inner img {
+      float: left;
+      margin: 11px -40px 15px 96px; }
+  .menu .carousel-indicators {
+    bottom: -13px; }
+    .menu .carousel-indicators li {
+      border: 1px solid #9c9c9c; }
+    .menu .carousel-indicators .active {
+      background-color: #9c9c9c; }
+  .menu .glyphicon.glyphicon-chevron-left {
+    margin-left: -7px; }
+  .menu .glyphicon.glyphicon-chevron-right {
+    margin-right: -7px; }
+  .menu .carousel-control.left, .menu .carousel-control.right {
+    background-image: none; }
+  .menu .ready {
+    position: absolute;
+    right: -139px;
+    top: -58px; }
+  .menu .hodden_div {
+    display: none; }
+
+.breakfast {
+  min-height: 750px;
+  background: url("../img/breakfast_bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "ProximaNovaRegular"; }
+  .breakfast .br-content {
+    color: #fff;
+    font-family: "ProximaNovaRegular"; }
+  .breakfast h3 {
+    font-size: 60px;
+    margin-top: 115px; }
+  .breakfast .open {
+    color: #a47d5e;
+    font-size: 18px;
+    margin-top: -10px; }
+  .breakfast h4 {
+    font-size: 30px;
+    margin-top: 45px; }
+  .breakfast .m_c, .breakfast .tempus, .breakfast .fusce {
+    color: #8c877c;
+    font-size: 16px;
+    margin-top: -7px; }
+  .breakfast .price {
+    color: #a47d5e;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "AlegreyaSansSC-Regular"; }
+  .breakfast h5 {
+    font-size: 30px;
+    margin-top: 25px; }
+  .breakfast .tempus, .breakfast .fusce {
+    font-size: 16px;
+    color: #8c877c;
+    margin-top: -10px; }
+  .breakfast .col-lg-6 {
+    min-height: 500px; }
+  .breakfast .flair {
+    width: 470px;
+    height: 600px;
+    background: url("../img/breakfast_menu.png") no-repeat;
+    position: absolute;
+    font-family: "ProximaNovaRegular";
+    color: #56534c;
+    margin-top: 90px;
+    margin-right: 140px; }
+    .breakfast .flair img {
+      margin: 0 auto;
+      display: block; }
+    .breakfast .flair .text-left, .breakfast .flair .text-right {
+      font-size: 15px;
+      display: inline-block;
+      color: #56534c;
+      font-family: "AlegreyaSansSC-Bold"; }
+    .breakfast .flair .text-left {
+      margin: 52px 0 0 100px; }
+    .breakfast .flair .text-right {
+      margin: 50px 0 0 210px; }
+    .breakfast .flair h2 {
+      font-family: "AlegreyaSansSC-Bold";
+      font-size: 44px;
+      margin-top: 80px; }
+    .breakfast .flair .text {
+      font-size: 14px;
+      margin-top: 40px; }
+    .breakfast .flair a {
+      background: transparent none repeat scroll 0 0;
+      color: #a47d5e;
+      display: block;
+      height: 50px;
+      margin-left: 30%;
+      margin-top: 50px;
+      padding-top: 14px;
+      text-transform: uppercase;
+      width: 180px; }
+      .breakfast .flair a:hover {
+        border: 1px solid #a47d5e; }
+
+.sandwich {
+  background-color: #f3f1e9; }
+  .sandwich .sandwich-title {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    background: url(../img/windmill.png) no-repeat 157px 0;
+    margin: -15px auto 0;
+    height: 120px; }
+    .sandwich .sandwich-title h2 {
+      font-size: 48px;
+      font-family: "AlegreyaSansSC-Bold";
+      color: #56534c;
+      padding-top: 95px; }
+    .sandwich .sandwich-title h5 {
+      font-size: 14px;
+      font-family: "ProximaNovaRegular";
+      color: #a47d5e;
+      text-transform: uppercase; }
+  .sandwich .section-column {
+    width: 29%;
+    padding-top: 45px;
+    height: 850px; }
+    .sandwich .section-column img {
+      display: block;
+      margin: 0 auto; }
+    .sandwich .section-column h3 {
+      font-family: "AlegreyaSansSC-Bold";
+      font-size: 30px;
+      color: #a47d5e; }
+    .sandwich .section-column p {
+      font-size: 14px;
+      font-family: "ProximaNovaRegular";
+      color: #56534c; }
+  .sandwich .recipe-wrap {
+    width: 841px;
+    height: 565px;
+    background: url(../img/sandwich-img.png) no-repeat;
+    position: absolute;
+    right: -35px;
+    top: 136px; }
+    .sandwich .recipe-wrap a {
+      width: 170px;
+      height: 60px;
+      background: #fff;
+      border: 1px dashed #dfc691;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      color: #dfc691;
+      padding-top: 18px; }
+      .sandwich .recipe-wrap a:hover {
+        border: 1px dashed #dfc691;
+        background: #f3f1e9; }
+    .sandwich .recipe-wrap h5 {
+      font-size: 18px;
+      font-family: "AlegreyaSansSC-Bold";
+      color: #a47d5e;
+      padding-top: 18px; }
+    .sandwich .recipe-wrap .number {
+      font-size: 60px;
+      color: #56534c; }
+    .sandwich .recipe-wrap #number {
+      color: #a47d5e; }
+    .sandwich .recipe-wrap .mins {
+      font-size: 18px;
+      color: #56534c;
+      font-family: "ProximaNovaRegular";
+      margin-top: -10px; }
+  .sandwich .prep, .sandwich .cook, .sandwich .ready {
+    width: 205px;
+    background-color: #fff;
+    height: 190px;
+    opacity: .8;
+    position: absolute; }
+  .sandwich .prep {
+    right: 6px;
+    top: 0;
+    margin-top: -15px; }
+  .sandwich .cook {
+    top: 177px;
+    right: 6px; }
+  .sandwich .ready {
+    top: 369px;
+    right: 6px;
+    background: url(../img/small-bg.png) no-repeat;
+    opacity: 1;
+    height: 200px; }
+
+footer {
+  min-height: 100px;
+  background-color: #f3f1e9; }
+  footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 7px; }
+  footer a {
+    color: #56534c;
+    font-family: "AlegreyaSansSC-Regular";
+    font-size: 15px; }
+    footer a:hover {
+      text-decoration: none;
+      color: #a47d5e; }
+  footer .menu-left {
+    float: left;
+    border-bottom: 1px solid #56534c;
+    border-top: 1px solid #56534c;
+    height: 40px;
+    width: 40%; }
+    footer .menu-left li {
+      padding-right: 16px; }
+      footer .menu-left li .link1 {
+        background: url(../img/arrow2.png) no-repeat 103px 8px; }
+      footer .menu-left li .link2 {
+        background: url(../img/arrow2.png) no-repeat 90px 8px; }
+    footer .menu-left a {
+      margin-left: -2px;
+      padding-right: 68px;
+      text-transform: uppercase; }
+  footer .menu-right {
+    float: right;
+    margin-top: -48px;
+    border-bottom: 1px solid #56534c;
+    border-top: 1px solid #56534c;
+    height: 40px;
+    width: 40%; }
+    footer .menu-right li {
+      padding-left: 1px; }
+      footer .menu-right li .link3 {
+        background: url(../img/arrow2.png) no-repeat 0 8px; }
+      footer .menu-right li .link4 {
+        background: url(../img/arrow2.png) no-repeat 0 8px; }
+    footer .menu-right a {
+      padding-left: 40px;
+      margin-right: 45px;
+      text-transform: uppercase; }
+  footer .footer-logo {
+    display: block;
+    margin: -17px auto 11px;
+    width: 8%; }
+    footer .footer-logo a {
+      font-size: 34px;
+      font-family: "scriptina"; }
+
+#modal .modal-content {
+  background: #f3f1e9;
+  font-family: "ProximaNovaRegular";
+  font-size: 14px;
+  color: #56534c;
+  padding: 20px; }
+
+@font-face {
+  font-family: "AlegreyaSansSC-Bold";
+  src: url("../fonts/AlegreyaSansSC-Bold.ttf"); }
+
+@font-face {
+  font-family: "AlegreyaSansSC-Regular";
+  src: url("../fonts/AlegreyaSansSC-Regular.ttf"); }
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular.ttf"); }
+
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: url("../fonts/PlayfairDisplayBold.ttf"); }
+
+@font-face {
+  font-family: "scriptina";
+  src: url("../fonts/scriptina.ttf"); }
+
+/*Large Devices, Wide Screens*/
+@media only screen and (max-width: 1200px) {
+  header .m-menu {
+    margin-left: -34px;
+    width: 118%; }
+  header .list-inline {
+    margin-left: 32px; }
+    header .list-inline li {
+      margin-right: -15px;
+      margin-top: 25px; }
+  header .header_social ul li {
+    margin-right: 15px;
+    margin-top: 15px; }
+  .art {
+    height: 1120px; }
+    .art #bread {
+      left: 44%;
+      position: absolute;
+      top: -56px; }
+    .art #benito img {
+      bottom: -150px;
+      left: 457px;
+      position: absolute; }
+    .art #art-p {
+      font-size: 17px;
+      margin-top: -30px; }
+    .art #text-lef {
+      left: 280px; }
+    .art #text-right {
+      right: 203px; }
+    .art .galery {
+      margin-top: 310px; }
+    .art #unique {
+      left: 410px; }
+    .art #commas1 {
+      left: 295px; }
+    .art #commas2 {
+      left: 710px; }
+    .art .wrap_img_top, .art .wrap_img_bottom {
+      margin: 0 auto;
+      min-height: 225px;
+      width: 60%; }
+    .art .tastes {
+      position: absolute;
+      right: 322px;
+      top: 82px; }
+  .menu .ready {
+    display: none; }
+  .menu .content-wrap {
+    margin-top: -95px;
+    width: 101%;
+    margin-left: -22px; }
+  .menu .content {
+    width: 562px; }
+  .breakfast .flair {
+    margin-left: 145px;
+    margin-top: 90px;
+    position: absolute;
+    width: 470px; }
+  .breakfast .br-content {
+    padding-left: 0;
+    width: 33%; }
+  .sandwich {
+    height: 1175px; }
+    .sandwich .section-column {
+      width: 100%;
+      margin-top: 140px;
+      padding: 0; }
+      .sandwich .section-column .item {
+        float: left;
+        margin-left: 66px;
+        margin-right: 25px; }
+    .sandwich .sandwich-title {
+      background: url("../img/windmill.png") no-repeat scroll 130px 0; }
+    .sandwich .recipe-wrap {
+      position: absolute;
+      right: 57px;
+      top: -600px;
+      width: 87%; }
+    .sandwich .sandwich .prep, .sandwich .sandwich .cook, .sandwich .sandwich .ready {
+      width: 200px; }
+  footer .menu-left a {
+    padding-right: 35px; }
+  footer .menu-right li .link3, footer .menu-right li .link4 {
+    background: none; }
+  footer .menu-right a {
+    margin-right: 45px;
+    padding-left: 15px; } }
+
+/*Medium Devices, Desktops*/
+@media only screen and (max-width: 992px) {
+  header .m-menu {
+    position: absolute;
+    top: -59px;
+    left: 180px; }
+  header h1 {
+    font-size: 75px; }
+  .art {
+    height: 1150px; }
+    .art #bread {
+      left: 41%;
+      top: -146px; }
+    .art #art-p {
+      font-size: 19px;
+      margin-bottom: 25px;
+      margin-top: -30px; }
+    .art #benito img {
+      bottom: -150px;
+      left: 352px;
+      position: absolute; }
+    .art #text-lef {
+      left: 177px; }
+    .art #text-right {
+      right: 100px; }
+    .art #unique {
+      left: 302px; }
+    .art #commas1 {
+      left: 180px; }
+    .art #commas2 {
+      left: 615px; }
+    .art .wrap_img_top, .art .wrap_img_bottom {
+      margin: 0 auto;
+      min-height: 225px;
+      width: 77%; }
+    .art .tastes {
+      position: absolute;
+      right: 218px;
+      top: 82px; }
+    .art .wrap_left, .art .wrap_right {
+      width: 230px; }
+    .art .wrap_right {
+      margin: 0 auto; }
+  .menu .pancake_picture {
+    display: none; }
+  .menu .content-wrap {
+    margin-left: -22px;
+    margin-top: 110px;
+    width: 88%; }
+  .breakfast {
+    height: 830px; }
+    .breakfast .br-content {
+      width: 39%; }
+    .breakfast .flair {
+      left: 145px;
+      margin-right: 0;
+      margin-top: 0;
+      position: absolute;
+      top: -647px;
+      width: 470px; }
+  .sandwich .sandwich-title {
+    background: url("../img/windmill.png") no-repeat scroll 87px 0; }
+  .sandwich .section-column .item {
+    margin-left: 24px;
+    margin-right: 2px; }
+  .sandwich .prep, .sandwich .cook, .sandwich .ready {
+    background-color: #fff;
+    height: 190px;
+    opacity: 0.8;
+    position: absolute;
+    width: 200px; }
+  footer .menu-left a {
+    padding-right: 11px; }
+  footer .menu-right {
+    width: 37%; }
+    footer .menu-right a {
+      margin-right: 19px;
+      padding-left: 0; } }
+
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 768px) {
+  header .line.glyphicon.glyphicon-align-justify {
+    color: #56534c;
+    font-size: 30px;
+    font-weight: normal;
+    position: absolute;
+    right: 48px;
+    top: -41px; }
+  header .dropdown-menu {
+    background: #b8b7b5 none repeat scroll 0 0;
+    font-size: 17px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    padding: 0;
+    margin: 0; }
+  header #drop li {
+    border-top: 1px solid grey;
+    padding-bottom: 0;
+    padding-top: -5px; }
+  header #drop li:first-child {
+    border-top: none; }
+  header #drop a:hover {
+    background: #dbd9d6; }
+  header h1 {
+    font-size: 60px; }
+  .art {
+    height: 1665px; }
+    .art .wrap_left {
+      margin: 0 auto;
+      float: none; }
+    .art .wrap_left, .art .wrap_right {
+      width: 230px; }
+    .art .wrap_right {
+      margin: 0 auto;
+      float: none; }
+    .art #benito img {
+      position: absolute;
+      bottom: -150px;
+      left: 41%; }
+    .art #text-lef {
+      left: 15%; }
+    .art #text-right {
+      right: 8%; }
+    .art #chef {
+      font-size: 26px;
+      margin-left: -7px; }
+    .art #commas1 {
+      left: 21%; }
+    .art #commas2 {
+      left: 79%; }
+    .art #unique {
+      left: 34%; }
+    .art .tastes {
+      display: none; }
+  .menu .content-wrap {
+    left: -10%;
+    margin-left: 94px;
+    position: absolute;
+    right: 15%;
+    top: 10px;
+    width: 78%; }
+  .menu .pancake_picture {
+    background: transparent;
+    width: em(420px);
+    height: 515px;
+    position: absolute; }
+    .menu .pancake_picture img {
+      display: block; }
+  .menu .content {
+    margin-right: -57px;
+    width: 474px; }
+  .menu .carousel-inner img {
+    float: left;
+    margin: 11px -73px 15px 91px; }
+  .breakfast #breakfas_content {
+    display: none; }
+  .breakfast .flair {
+    display: block;
+    left: -2px;
+    margin: 107px auto 0;
+    position: relative;
+    top: 0;
+    width: 470px; }
+  .sandwich {
+    height: 1045px; }
+    .sandwich .sandwich-title {
+      background: none; }
+      .sandwich .sandwich-title h2 {
+        font-size: 37px;
+        margin-top: -55px; }
+    .sandwich .recipe-wrap {
+      display: none; }
+    .sandwich .item {
+      display: block;
+      margin: 0 auto;
+      margin-left: 24px;
+      margin-right: 2px;
+      padding-top: 45px;
+      width: 100%; }
+    .sandwich .section-column {
+      margin-top: 100px;
+      padding: 0;
+      width: 100%; }
+      .sandwich .section-column .item {
+        margin-left: 0;
+        margin-right: 0; }
+      .sandwich .section-column p {
+        font-size: 17px; }
+  footer .footer-logo {
+    display: none; }
+  footer .menu-right, footer .menu-left {
+    border: none;
+    width: 45%; }
+  footer .menu-right {
+    margin-top: 0;
+    text-align: right; }
+    footer .menu-right ul {
+      padding-left: 0; }
+      footer .menu-right ul li {
+        padding-left: 15px; }
+    footer .menu-right a {
+      margin-right: 2px;
+      padding-left: 0; }
+  footer .menu-left {
+    text-align: left; }
+    footer .menu-left ul {
+      padding-left: 5px; }
+      footer .menu-left ul li {
+        padding-right: 0; } }
+
+/*Extra Small Devices, Phones*/
+@media only screen and (max-width: 480px) {
+  header h1 {
+    font-size: 62px; }
+  .art {
+    height: 1694px; }
+    .art #bread {
+      left: 35%;
+      top: -146px; }
+    .art #text-lef {
+      display: none; }
+    .art #text-right {
+      display: none; }
+    .art #benito img {
+      bottom: -150px;
+      left: 35%;
+      position: absolute; }
+    .art #unique {
+      left: 23%; }
+    .art #commas1 {
+      left: 14%; }
+    .art #commas2 {
+      left: 76%; }
+  .menu {
+    max-height: 555px; }
+    .menu .content-wrap {
+      display: none; }
+    .menu .hidden {
+      display: block !important;
+      visibility: visible !important;
+      min-height: 300px;
+      font-family: "ProximaNovaRegular";
+      background-color: transparent; }
+      .menu .hidden h4 {
+        font-size: 50px;
+        color: #56534c;
+        margin-top: 65px;
+        margin-left: 60px; }
+      .menu .hidden h6 {
+        font-size: 20px;
+        margin-top: 20px;
+        color: #a47d5e;
+        margin-left: 60px;
+        text-transform: uppercase; }
+      .menu .hidden p {
+        font-size: 19px;
+        color: #56534c;
+        margin: 50px 60px 100px 60px;
+        text-align: justify; }
+  .breakfast {
+    height: 680px; }
+    .breakfast .flair {
+      display: none; }
+    .breakfast #breakfas_content {
+      display: inline; }
+    .breakfast h3 {
+      font-size: 50px;
+      margin-top: 95px; }
+  .sandwich {
+    height: 1025px; }
+    .sandwich .section-column {
+      margin-top: 115px; }
+    .sandwich .sandwich-title {
+      width: 100%; }
+      .sandwich .sandwich-title h5 {
+        font-size: 16px; }
+  footer .menu-right, footer .menu-left {
+    display: none; }
+  footer .footer-logo {
+    display: block;
+    width: 27%;
+    margin-top: 25px; } }
+
+/*Custom, iPhone Retina*/
+@media only screen and (max-width: 320px) {
+  header {
+    min-height: 785px; }
+    header h1 {
+      font-size: 50px;
+      margin-top: 80px; }
+    header h5 {
+      font-size: 26px; }
+    header .wrap_left {
+      margin-left: -16px; }
+      header .wrap_left img {
+        margin-left: -16px !important; }
+    header .wrap_right > img {
+      margin-left: -20px; }
+  .art {
+    height: 1740px; }
+  .menu {
+    max-height: 655px; }
+    .menu .hidden h4 {
+      font-size: 43px;
+      color: #56534c;
+      margin-top: 65px;
+      margin-left: 30px; }
+    .menu .hidden h6 {
+      font-size: 20px;
+      margin-top: 20px;
+      color: #a47d5e;
+      margin-left: 30px;
+      text-transform: uppercase; }
+    .menu .hidden p {
+      font-size: 18px;
+      color: #56534c;
+      margin: 80px 60px 100px 30px;
+      text-align: justify; } }
