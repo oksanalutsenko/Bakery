@@ -13,6 +13,7 @@
 	    <!-- Bootstrap -->
 	    <link href="css/bootstrap.css" rel="stylesheet">
 	    <link href="css/styles.css" rel="stylesheet">
+	    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	     <link rel="stylesheet" href="css/animate.min.css" />
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,6 +21,9 @@
 	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	    <![endif]-->
+	
+	
+
 	</head>
 	<body>
       		<header>
@@ -61,9 +65,9 @@
 							<div class="col-md-2 hidden-xs hidden-sm ">
 								<div class="header_social">
 									<ul>
-										<li><a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a></li>
-										<li><a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a></li>
-										<li><a href="#"><img src="img/camera-icon.png" alt="Camera"></a></li>
+										<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="camera"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
 									</ul>
 								</div>
 							</div>
@@ -102,25 +106,25 @@
     							<img src="img/commas2.jpg" alt="commas2" id="commas2">
       					</div>
       					<div class="col-lg-6 col-md-12 galery">
-							<div class="wrap_img_top clearfix">
-								<div class="wrap_left">
-									<img src="img/foto1.jpg" alt="Photo1">
-								</div>
-								<div class="wrap_right">
-									<img src="img/foto2.jpg" alt="Photo2">
-								</div>
+						<div class="wrap_img_top clearfix">
+							<div class="wrap_left">
+								<img src="img/foto1.jpg" alt="Photo1">
 							</div>
-							<div class="wrap_img_bottom clearfix">
-								<div class="wrap_left">
-									<img src="img/foto3.jpg" alt="Photo3">
-								</div>
-								<div class="wrap_right">
-									<img src="img/foto4.jpg" alt="Photo4">
-								</div>
+							<div class="wrap_right">
+								<img src="img/foto2.jpg" alt="Photo2">
 							</div>
-							<div class="tastes hidden-xs">
-								<img src="img/tastes_img.png" alt="Tastes">
+						</div>
+						<div class="wrap_img_bottom clearfix">
+							<div class="wrap_left">
+								<img src="img/foto3.jpg" alt="Photo3">
 							</div>
+							<div class="wrap_right">
+								<img src="img/foto4.jpg" alt="Photo4">
+							</div>
+						</div>
+						<div class="tastes hidden-xs">
+							<img src="img/tastes_img.png" alt="Tastes">
+						</div>
       					</div>
       				</div>    
       			</div>
@@ -353,16 +357,6 @@
 	  		</div><!-- /.modal-dialog -->
 		</div><!-- /.modal -->
 
-
-
-		<script>
-	            $(document).ready(function() {
-	                  $('#medium').bind({
-	                  'mouseover':function() { $(this).css("background-color", "lightblue"); },
-	                  'mouseout':function() { $(this).css("background-color", "darkblue"); },
-	                  });
-	            });                                    
-	      </script>
 
 	       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
